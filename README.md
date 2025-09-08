@@ -20,3 +20,30 @@ The project was created to test backend development and demonstrate basic page m
 ---
 
 ## 📂 Project Structure
+
+src/
+└── main/
+├── java/com/example/demo/ # Java source code (controllers, models, services)
+├── resources/
+│ └── application.properties # Spring Boot config
+└── webapp/WEB-INF/jsp/ # JSP views
+├── add-job.jsp
+├── view.jsp
+├── success.jsp
+└── view-all-jobs.jsp
+
+
+---
+
+## ⚙️ Dependencies
+
+This project uses the following dependencies:
+
+- **spring-boot-starter-web** → Provides Spring MVC and embedded Tomcat.
+- **tomcat-jasper** → Required for JSP compilation in embedded Tomcat.
+- **spring-boot-devtools** → Auto-restart and live reload during development.
+- **lombok** → Reduces boilerplate code for models (getters, setters, etc.).
+- **jakarta.servlet.jsp.jstl-api** & **jakarta.servlet.jsp.jstl** → JSTL library support for JSP.
+- **spring-boot-starter-test** → Testing dependencies (JUnit, Mockito, etc.).
+
+---
